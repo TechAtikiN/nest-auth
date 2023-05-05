@@ -6,6 +6,7 @@ export type User = {
   password: string;
   name: string
 }
+
 @Injectable()
 export class UsersService {
   private readonly users: User[] = [
